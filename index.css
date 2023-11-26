@@ -1,0 +1,175 @@
+body {
+  background-color: white;
+  width: auto;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  padding-top: 5%;
+}
+h1 {
+  font-family: "Patrick Hand", cursive;
+  position: static;
+  text-align: center;
+  font-size: 9rem;
+  color: blueviolet;
+  animation-duration: 10s;
+  animation-name: bojeee;
+  font-size: 4em;
+  padding: top 40%;
+}
+.burger {
+  display: block;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.burger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: transform 0.4s ease;
+}
+
+#burger-toggle {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+#burger-toggle:checked ~ .menu {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    display: block;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 5em;
+  }
+}
+@media (min-width: 769px) {
+  .menu {
+    display: block;
+  }
+  .burger {
+    display: none;
+  }
+}
+
+@keyframes prelaz {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+h1 {
+  animation: prelaz 1s ease-out;
+}
+nav {
+  background-color: rgb(127, 135, 212);
+  width: 100%;
+  height: 60%;
+}
+
+nav ul li {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2%;
+  padding-left: 6%;
+}
+a {
+  position: static;
+  font-weight: normal;
+  font-family: "Patrick Hand", cursive;
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px 20px;
+}
+
+a:link {
+  color: aliceblue;
+}
+a:visited {
+  color: aliceblue;
+}
+a:hover {
+  color: rgb(92, 157, 201);
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+h2,
+#mi {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(127, 135, 212);
+  font-family: "Patrick Hand", cursive;
+}
+h2 {
+  font-size: 60px;
+}
+.card {
+  background-color: rgb(127, 135, 212);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* Stack the image, text, and description vertically */
+}
+
+.card img {
+  width: 200px;
+  height: 150px;
+  flex: 1;
+}
+
+h3 {
+  color: #f4f4f4;
+  font-size: 40px;
+  margin: 10px 0;
+  font-family: "Patrick Hand", cursive;
+}
+
+p {
+  font-size: 20px;
+  color: #f4f4f4;
+  font-family: "Patrick Hand", cursive;
+}
+
+#prijavite_se input[type="button"] {
+  font-family: "Patrick Hand", cursive;
+  font-size: 50px;
+  align-items: center;
+  background-color: rgb(127, 135, 212);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  color: aliceblue;
+  text-align: center;
+  margin: 0% 50% 5% 35%;
+  padding: 2%;
+}
+.fb_like {
+  justify-content: center;
+}
