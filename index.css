@@ -24,7 +24,7 @@ h1 {
   animation-duration: 10s;
   animation-name: bojeee;
   font-size: 4em;
-  padding: top 40%;
+  padding-top:  40%;
 }
 .burger {
   display: block;
@@ -60,6 +60,9 @@ h1 {
   }
   h1 {
     font-size: 5em;
+  }
+  .navigacija {
+    display: none;
   }
 }
 @media (min-width: 769px) {
