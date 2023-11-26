@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://jecc93.github.io/skola-Artiss/
